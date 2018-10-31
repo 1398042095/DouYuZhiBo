@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7BB912A02188B61A00A92C78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB9129F2188B61A00A92C78 /* AppDelegate.swift */; };
-		7BB912A22188B61A00A92C78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB912A12188B61A00A92C78 /* ViewController.swift */; };
 		7BB912A52188B61A00A92C78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BB912A32188B61A00A92C78 /* Main.storyboard */; };
 		7BB912A82188B61A00A92C78 /* DouYu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BB912A62188B61A00A92C78 /* DouYu.xcdatamodeld */; };
 		7BB912AA2188B61B00A92C78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BB912A92188B61B00A92C78 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		7BB9129C2188B61A00A92C78 /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BB9129F2188B61A00A92C78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BB912A12188B61A00A92C78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7BB912A42188B61A00A92C78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BB912A72188B61A00A92C78 /* DouYu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DouYu.xcdatamodel; sourceTree = "<group>"; };
 		7BB912A92188B61B00A92C78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +74,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B23DC1C218997CB003FF953 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B23DC22218997CB003FF953 /* Main */,
+				7B23DC1D218997CB003FF953 /* Home */,
+				7B23DC20218997CB003FF953 /* Live */,
+				7B23DC21218997CB003FF953 /* Follow */,
+				7B23DC1F218997CB003FF953 /* Profile */,
+				7B23DC1E218997CB003FF953 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7B23DC1D218997CB003FF953 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7B23DC1E218997CB003FF953 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7B23DC1F218997CB003FF953 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		7B23DC20218997CB003FF953 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		7B23DC21218997CB003FF953 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		7B23DC22218997CB003FF953 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		7BB912932188B61A00A92C78 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +152,8 @@
 		7BB9129E2188B61A00A92C78 /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				7B23DC1C218997CB003FF953 /* Classes */,
 				7BB9129F2188B61A00A92C78 /* AppDelegate.swift */,
-				7BB912A12188B61A00A92C78 /* ViewController.swift */,
 				7BB912A32188B61A00A92C78 /* Main.storyboard */,
 				7BB912A92188B61B00A92C78 /* Assets.xcassets */,
 				7BB912AB2188B61B00A92C78 /* LaunchScreen.storyboard */,
@@ -260,7 +313,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB912A82188B61A00A92C78 /* DouYu.xcdatamodeld in Sources */,
-				7BB912A22188B61A00A92C78 /* ViewController.swift in Sources */,
 				7BB912A02188B61A00A92C78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
